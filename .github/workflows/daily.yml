@@ -1,0 +1,39 @@
+name: Update daily leaderboard
+
+on:
+  schedule:
+    - cron: '17 1 * * *' # 09:17 Asia/Shanghai; runs may be delayed by GitHub.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify exporter
+        run: python -m unittest discover -s tests -v
+      - name: Generate daily snapshot
+        run: python scripts/update.py
+      - name: Commit publication
+        run: |
+          set -euo pipefail
+          git add README.md daily/ data/
+          if git diff --cached --quiet; then
+            echo 'No publication changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish daily OpenPulse leaderboard'
+          git push
