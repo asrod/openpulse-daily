@@ -1,7 +1,7 @@
 name: Update daily leaderboard
 
 on:
-  # Publication is dispatched by the systemd timer on the Hermes automation host.
+  # RepoRadar production's version-controlled timer dispatches this workflow.
   # Keep manual dispatch as an emergency recovery path.
   workflow_dispatch:
 
