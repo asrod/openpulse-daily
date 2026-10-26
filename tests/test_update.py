@@ -89,6 +89,29 @@ class ExporterTests(unittest.TestCase):
             self.assertTrue((root / "data/2026-10-24.json").exists())
             self.assertIn("daily/2026-10-24.md", (root / "README.md").read_text())
 
+    def test_incomplete_snapshot_is_repaired(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            update(root, fixture(), NOW)
+            (root / "data/2026-10-24.json").unlink()
+            self.assertTrue(update(root, fixture(), NOW))
+            self.assertTrue((root / "daily/2026-10-24.md").is_file())
+            self.assertTrue((root / "data/2026-10-24.json").is_file())
+
+    def test_readme_is_repaired_from_immutable_archive(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            update(root, fixture(), NOW)
+            archive = (root / "daily/2026-10-24.md").read_bytes()
+            snapshot = (root / "data/2026-10-24.json").read_bytes()
+            (root / "README.md").write_text("incomplete", encoding="utf-8")
+            changed = fixture()
+            changed["repositories"][0]["growth"]["value"] = 999
+            self.assertTrue(update(root, changed, NOW))
+            self.assertEqual((root / "daily/2026-10-24.md").read_bytes(), archive)
+            self.assertEqual((root / "data/2026-10-24.json").read_bytes(), snapshot)
+            self.assertIn("+56", (root / "README.md").read_text())
+
 
 if __name__ == "__main__":
     unittest.main()

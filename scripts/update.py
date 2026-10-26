@@ -2,7 +2,9 @@
 import argparse
 import html
 import json
+import os
 import re
+import tempfile
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -85,25 +87,50 @@ def render(data, now):
     return date, "\n".join(lines)
 
 
+def atomic_write(path, content):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    descriptor, temporary = tempfile.mkstemp(prefix=f".{path.name}.", dir=path.parent)
+    try:
+        with os.fdopen(descriptor, "w", encoding="utf-8", newline="") as stream:
+            stream.write(content)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(temporary, path)
+    finally:
+        if os.path.exists(temporary):
+            os.unlink(temporary)
+
+
+def render_readme(root, report):
+    dates = sorted((p.stem for p in (root / "daily").glob("????-??-??.md")), reverse=True)
+    archives = "\n".join(f"- [{day}](daily/{day}.md) · [JSON](data/{day}.json)" for day in dates[:31])
+    return (report + "\n## Recent archives\n\n" + archives + "\n\n"
+            "All historical snapshots remain in [`daily/`](daily/) and [`data/`](data/).\n")
+
+
 def update(root, data, now):
     date, report = render(data, now)  # Validate everything before modifying any publication.
     daily, snapshots = root / "daily", root / "data"
     daily.mkdir(exist_ok=True)
     snapshots.mkdir(exist_ok=True)
-    archive = daily / f"{date}.md"
-    # Keep the first successful daily snapshot stable; manual runs verify the
-    # workflow without rewriting the day's historical record.
-    if archive.exists():
-        return False
-    snapshot = {"published_at": now.isoformat(), "as_of": data["as_of"], "window": "24h",
-                "coverage": data.get("coverage"), "repositories": data["repositories"]}
-    archive.write_text(report, encoding="utf-8")
-    (snapshots / f"{date}.json").write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    dates = sorted((p.stem for p in daily.glob("????-??-??.md")), reverse=True)
-    archives = "\n".join(f"- [{day}](daily/{day}.md) · [JSON](data/{day}.json)" for day in dates[:31])
-    (root / "README.md").write_text(report + "\n## Recent archives\n\n" + archives + "\n\n"
-                                    "All historical snapshots remain in [`daily/`](daily/) and [`data/`](data/).\n", encoding="utf-8")
-    return True
+    archive, snapshot_path = daily / f"{date}.md", snapshots / f"{date}.json"
+    changed = False
+    # Keep complete daily snapshots immutable. If an interrupted write left
+    # only one artifact, recreate both before exposing the README entry.
+    if archive.is_file() and snapshot_path.is_file():
+        report = archive.read_text(encoding="utf-8")
+    else:
+        snapshot = {"published_at": now.isoformat(), "as_of": data["as_of"], "window": "24h",
+                    "coverage": data.get("coverage"), "repositories": data["repositories"]}
+        atomic_write(archive, report)
+        atomic_write(snapshot_path, json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n")
+        changed = True
+    readme = render_readme(root, report)
+    readme_path = root / "README.md"
+    if not readme_path.is_file() or readme_path.read_text(encoding="utf-8") != readme:
+        atomic_write(readme_path, readme)
+        changed = True
+    return changed
 
 
 def main():
