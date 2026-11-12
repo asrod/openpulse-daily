@@ -1,0 +1,1696 @@
+{
+  "published_at": "2026-11-12T01:17:14.038807+00:00",
+  "as_of": "2026-11-12T01:17:13.839150+00:00",
+  "window": "24h",
+  "coverage": "Tracked public repositories only. Growth uses available recent history. Activity compares the latest four complete weeks across repositories with complete data; incomplete periods remain unavailable.",
+  "repositories": [
+    {
+      "id": 1209966933,
+      "full_name": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "github_topics": [
+        "agent-skills",
+        "ai",
+        "android",
+        "claude-code",
+        "cli",
+        "cpp",
+        "dsh-plugin",
+        "html",
+        "java",
+        "javascript",
+        "linux",
+        "mcp",
+        "nodejs",
+        "python",
+        "rea",
+        "react",
+        "rust",
+        "security",
+        "touhou",
+        "typescript"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/morluto/rea",
+      "stars_count": 452799,
+      "forks_count": 111324,
+      "created_at": "2026-04-14T00:51:32+00:00",
+      "pushed_at": "2026-11-11T23:43:17+00:00",
+      "first_seen_at": "2026-10-16T02:29:18.975098+00:00",
+      "observed_at": "2026-11-12T01:14:41.160926+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 100,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 5529,
+        "merged_prs": 2008,
+        "active_contributors": 99,
+        "fetched_at": "2026-11-08T20:31:14.369795+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T20:10:51+00:00",
+        "started_at": "2026-11-11T20:17:46.722232+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T10:37:29+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T20:17:52.551781+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 2760,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:12.743239+00:00",
+        "observed_at": "2026-11-12T01:00:24.181891+00:00",
+        "actual_window_seconds": 86411.438652,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1131202426,
+      "full_name": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/meta/astryx",
+      "stars_count": 25000,
+      "forks_count": 1952,
+      "created_at": "2026-01-09T16:20:32+00:00",
+      "pushed_at": "2026-11-12T00:55:15+00:00",
+      "first_seen_at": "2026-11-08T04:19:54.847214+00:00",
+      "observed_at": "2026-11-12T01:05:11.511619+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 99,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 2637,
+        "merged_prs": 2395,
+        "active_contributors": 40,
+        "fetched_at": "2026-11-10T03:27:48.783178+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T16:26:31+00:00",
+        "started_at": "2026-11-11T16:33:26.890949+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T02:18:12+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T16:33:30.859640+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 2150,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:04:59.731490+00:00",
+        "observed_at": "2026-11-12T01:05:11.511619+00:00",
+        "actual_window_seconds": 86411.780129,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1440956372,
+      "full_name": "storytold/craft-anything",
+      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "language": "Rust",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "Apache-2.0",
+      "github_url": "https://github.com/storytold/craft-anything",
+      "stars_count": 28423,
+      "forks_count": 5768,
+      "created_at": "2026-10-31T14:50:00+00:00",
+      "pushed_at": "2026-11-12T00:43:41+00:00",
+      "first_seen_at": "2026-11-02T00:03:40.536660+00:00",
+      "observed_at": "2026-11-12T01:04:27.477721+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 98,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 535,
+        "merged_prs": 470,
+        "active_contributors": 85,
+        "fetched_at": "2026-11-09T19:30:44.304989+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T19:43:59+00:00",
+        "started_at": "2026-11-12T00:17:16.619200+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T05:33:30+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-12T00:17:20.163543+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 2100,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:04:15.450589+00:00",
+        "observed_at": "2026-11-12T01:04:27.477721+00:00",
+        "actual_window_seconds": 86412.027132,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1385896447,
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "language": "JavaScript",
+      "github_topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "stars_count": 70045,
+      "forks_count": 1900,
+      "created_at": "2026-09-24T16:17:19+00:00",
+      "pushed_at": "2026-11-11T09:33:36+00:00",
+      "first_seen_at": "2026-10-16T03:11:00.340003+00:00",
+      "observed_at": "2026-11-12T01:11:35.592668+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 94,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 344,
+        "merged_prs": 102,
+        "active_contributors": 31,
+        "fetched_at": "2026-11-08T19:29:35.455399+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T08:58:04+00:00",
+        "started_at": "2026-11-11T20:04:12.686291+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-10-30T19:09:39+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T20:04:31.778229+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1312,
+        "status": "ready",
+        "baseline_at": "2026-11-11T00:56:53.748343+00:00",
+        "observed_at": "2026-11-12T00:56:43.574682+00:00",
+        "actual_window_seconds": 86389.826339,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1437814166,
+      "full_name": "anefzaoui/misterdownloadmanager",
+      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "language": "Rust",
+      "github_topics": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager",
+        "downloadmanager",
+        "egui",
+        "file-downloader",
+        "gallery-dl",
+        "idm",
+        "idm-alternative",
+        "internet-download-manager",
+        "m3u8-downloader",
+        "magnet",
+        "playlist-downloader",
+        "real-debrid",
+        "rust",
+        "torrent-client",
+        "video-downloader",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "GPL-3.0",
+      "github_url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "stars_count": 6852,
+      "forks_count": 527,
+      "created_at": "2026-10-29T01:25:19+00:00",
+      "pushed_at": "2026-11-12T00:46:27+00:00",
+      "first_seen_at": "2026-11-08T20:51:50.144775+00:00",
+      "observed_at": "2026-11-12T01:07:18.350320+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 92,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 380,
+        "merged_prs": 187,
+        "active_contributors": 4,
+        "fetched_at": "2026-11-09T11:31:19.697835+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 45,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 45,
+            "percent": 45
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T21:01:15+00:00",
+        "started_at": "2026-11-11T21:02:44.591889+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-09T14:30:10+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 45,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T21:02:47.470578+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1306,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:07:07.351188+00:00",
+        "observed_at": "2026-11-12T01:07:18.350320+00:00",
+        "actual_window_seconds": 86410.999132,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1153130349,
+      "full_name": "pingdotgg/t3code",
+      "description": null,
+      "language": "TypeScript",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/pingdotgg/t3code",
+      "stars_count": 57040,
+      "forks_count": 10522,
+      "created_at": "2026-02-08T23:46:22+00:00",
+      "pushed_at": "2026-11-12T01:03:11+00:00",
+      "first_seen_at": "2026-10-16T08:48:14.917892+00:00",
+      "observed_at": "2026-11-12T01:03:32.568668+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 100,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 7890,
+        "merged_prs": 4486,
+        "active_contributors": 82,
+        "fetched_at": "2026-11-09T11:38:14.552394+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 57,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 57,
+            "percent": 57
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T22:31:23+00:00",
+        "started_at": "2026-11-11T22:38:45.793188+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T19:34:23+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 57,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T22:38:52.813430+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1285,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:03:19.276319+00:00",
+        "observed_at": "2026-11-12T01:03:32.568668+00:00",
+        "actual_window_seconds": 86413.292349,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1446962520,
+      "full_name": "NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "language": "C++",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "GPL-3.0",
+      "github_url": "https://github.com/NotRexed/Hookshot",
+      "stars_count": 7826,
+      "forks_count": 705,
+      "created_at": "2026-11-05T12:18:58+00:00",
+      "pushed_at": "2026-11-12T01:07:11+00:00",
+      "first_seen_at": "2026-11-09T15:23:57.685521+00:00",
+      "observed_at": "2026-11-12T01:09:23.775946+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 92,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 232,
+        "merged_prs": 43,
+        "active_contributors": 26,
+        "fetched_at": "2026-11-10T05:26:51.122015+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 62,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 60,
+            "percent": 60
+          },
+          {
+            "tool": "codex",
+            "count": 2,
+            "percent": 2
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T12:30:01+00:00",
+        "started_at": "2026-11-11T15:32:01.486798+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-10T20:03:55+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 62,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T15:32:05.961112+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1254,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:09:15.681721+00:00",
+        "observed_at": "2026-11-12T01:09:23.775946+00:00",
+        "actual_window_seconds": 86408.094225,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1148788086,
+      "full_name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/mattpocock/skills",
+      "stars_count": 322047,
+      "forks_count": 27003,
+      "created_at": "2026-02-03T11:15:53+00:00",
+      "pushed_at": "2026-11-11T14:40:17+00:00",
+      "first_seen_at": "2026-10-16T02:29:28.798879+00:00",
+      "observed_at": "2026-11-12T01:14:39.211211+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 75,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 15,
+        "merged_prs": 8,
+        "active_contributors": 3,
+        "fetched_at": "2026-11-08T15:05:28.833236+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 53,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 53,
+            "percent": 53
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-10-31T14:23:30+00:00",
+        "started_at": "2026-11-11T16:01:55.351826+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-08-13T08:34:35+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 53,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T16:02:00.122914+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1115,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:10.079857+00:00",
+        "observed_at": "2026-11-12T01:00:20.954798+00:00",
+        "actual_window_seconds": 86410.874941,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 162998479,
+      "full_name": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "github_topics": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting",
+        "python",
+        "python3",
+        "reconnaissance",
+        "redteam",
+        "sherlock",
+        "tools"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/sherlock-project/sherlock",
+      "stars_count": 110094,
+      "forks_count": 12752,
+      "created_at": "2018-12-24T14:30:48+00:00",
+      "pushed_at": "2026-11-11T05:13:32+00:00",
+      "first_seen_at": "2026-10-16T04:14:58.711230+00:00",
+      "observed_at": "2026-11-12T01:15:08.757039+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 39,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 1,
+        "merged_prs": 0,
+        "active_contributors": 1,
+        "fetched_at": "2026-11-08T11:09:46.263140+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 1,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 1,
+            "percent": 1
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-01T17:41:43+00:00",
+        "started_at": "2026-11-11T22:25:39.686852+00:00",
+        "prs_checked": 100,
+        "range_start": "2025-10-11T03:24:40+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 1,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T22:25:42.976179+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1104,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:30.052968+00:00",
+        "observed_at": "2026-11-12T01:00:30.788718+00:00",
+        "actual_window_seconds": 86400.73575,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1206390571,
+      "full_name": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "github_topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "AGPL-3.0",
+      "github_url": "https://github.com/debpalash/VoiceStudio",
+      "stars_count": 108361,
+      "forks_count": 12006,
+      "created_at": "2026-04-09T21:40:26+00:00",
+      "pushed_at": "2026-11-12T00:29:24+00:00",
+      "first_seen_at": "2026-10-16T02:29:21.450426+00:00",
+      "observed_at": "2026-11-12T01:14:40.512241+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 98,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 1769,
+        "merged_prs": 453,
+        "active_contributors": 52,
+        "fetched_at": "2026-11-10T03:29:11.394644+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T13:21:43+00:00",
+        "started_at": "2026-11-11T14:23:25.632483+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-10T08:57:28+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T14:23:30.386356+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1064,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:12.053896+00:00",
+        "observed_at": "2026-11-12T01:00:23.530166+00:00",
+        "actual_window_seconds": 86411.47627,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1273427276,
+      "full_name": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/cloudflare/security-audit-skill",
+      "stars_count": 70376,
+      "forks_count": 4666,
+      "created_at": "2026-06-18T14:08:44+00:00",
+      "pushed_at": "2026-09-14T19:29:02+00:00",
+      "first_seen_at": "2026-10-16T08:48:38.065880+00:00",
+      "observed_at": "2026-11-12T01:04:07.712019+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 0,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 0,
+        "merged_prs": 0,
+        "active_contributors": 0,
+        "fetched_at": "2026-11-08T15:25:24.405727+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-09-14T19:28:54+00:00",
+        "started_at": "2026-11-12T00:05:42.251047+00:00",
+        "prs_checked": 91,
+        "range_start": "2026-06-18T16:20:36+00:00",
+        "sample_size": 9,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 14,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-12T00:05:45.127686+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1039,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:03:59.621566+00:00",
+        "observed_at": "2026-11-12T01:04:07.712019+00:00",
+        "actual_window_seconds": 86408.090453,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1432967563,
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "language": "Dart",
+      "github_topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "AGPL-3.0",
+      "github_url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "stars_count": 19734,
+      "forks_count": 878,
+      "created_at": "2026-10-25T08:09:52+00:00",
+      "pushed_at": "2026-11-12T01:12:33+00:00",
+      "first_seen_at": "2026-10-30T05:00:31.829184+00:00",
+      "observed_at": "2026-11-12T01:15:45.079903+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 90,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 816,
+        "merged_prs": 142,
+        "active_contributors": 2,
+        "fetched_at": "2026-11-08T22:27:54.343533+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T21:23:17+00:00",
+        "started_at": "2026-11-11T21:29:25.995028+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T08:40:58+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T21:29:33.499293+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 1036,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:57.081658+00:00",
+        "observed_at": "2026-11-12T01:01:10.591265+00:00",
+        "actual_window_seconds": 86413.509607,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1183888342,
+      "full_name": "stablyai/orca",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "github_topics": [
+        "agent-ide",
+        "ai-agents",
+        "automation",
+        "bot",
+        "claude-code",
+        "codex",
+        "ghostty",
+        "grok-bot",
+        "hermes-agent",
+        "mobile-app",
+        "muse",
+        "openclaw",
+        "opencode",
+        "orchestration",
+        "pi",
+        "runtime",
+        "swarm",
+        "terminal",
+        "worktrees",
+        "yc-backed"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/stablyai/orca",
+      "stars_count": 122421,
+      "forks_count": 7763,
+      "created_at": "2026-03-17T03:28:57+00:00",
+      "pushed_at": "2026-11-12T01:10:47+00:00",
+      "first_seen_at": "2026-10-16T04:15:00.607313+00:00",
+      "observed_at": "2026-11-12T01:15:11.854260+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 100,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 7178,
+        "merged_prs": 6393,
+        "active_contributors": 221,
+        "fetched_at": "2026-11-08T20:30:39.616089+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 1,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 1,
+            "percent": 1
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T20:38:19+00:00",
+        "started_at": "2026-11-11T20:53:39.177924+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T05:22:10+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 1,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T20:53:41.880568+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 944,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:33.173102+00:00",
+        "observed_at": "2026-11-12T01:00:31.928685+00:00",
+        "actual_window_seconds": 86398.755583,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1383809012,
+      "full_name": "yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "language": "Go",
+      "github_topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/yetone/magpie",
+      "stars_count": 34721,
+      "forks_count": 3085,
+      "created_at": "2026-09-23T16:22:35+00:00",
+      "pushed_at": "2026-11-12T00:41:54+00:00",
+      "first_seen_at": "2026-10-16T03:11:26.274922+00:00",
+      "observed_at": "2026-11-12T01:12:04.650998+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 94,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 4484,
+        "merged_prs": 20,
+        "active_contributors": 68,
+        "fetched_at": "2026-11-09T07:27:33.517477+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T20:52:19+00:00",
+        "started_at": "2026-11-11T21:21:03.414910+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-11-11T11:34:40+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T21:21:05.997936+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 832,
+        "status": "ready",
+        "baseline_at": "2026-11-11T00:57:30.428748+00:00",
+        "observed_at": "2026-11-12T00:57:18.161349+00:00",
+        "actual_window_seconds": 86387.732601,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1333065091,
+      "full_name": "deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "language": "TypeScript",
+      "github_topics": [
+        "ai-agents",
+        "cordis",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "stars_count": 279024,
+      "forks_count": 34327,
+      "created_at": "2026-08-13T11:56:32+00:00",
+      "pushed_at": "2026-11-11T11:32:04+00:00",
+      "first_seen_at": "2026-10-16T04:11:08.728148+00:00",
+      "observed_at": "2026-11-12T01:11:34.283379+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 64,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 3347,
+        "merged_prs": 0,
+        "active_contributors": 35,
+        "fetched_at": "2026-11-08T15:27:06.737997+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "status": "unavailable",
+        "score": null,
+        "sample_size": 0,
+        "matched_commits": 0,
+        "rule_version": "ai-attribution-v1",
+        "tools": [],
+        "fetched_at": null,
+        "refreshing": false
+      },
+      "growth": {
+        "value": 821,
+        "status": "ready",
+        "baseline_at": "2026-11-11T00:56:53.204783+00:00",
+        "observed_at": "2026-11-12T00:57:17.597861+00:00",
+        "actual_window_seconds": 86424.393078,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1438623288,
+      "full_name": "heydamir/unslop",
+      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "language": "JavaScript",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "CC-BY-4.0",
+      "github_url": "https://github.com/heydamir/unslop",
+      "stars_count": 14557,
+      "forks_count": 819,
+      "created_at": "2026-10-29T15:41:21+00:00",
+      "pushed_at": "2026-11-08T21:18:33+00:00",
+      "first_seen_at": "2026-10-30T21:00:40.053983+00:00",
+      "observed_at": "2026-11-12T01:16:13.405654+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 75,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 14,
+        "merged_prs": 3,
+        "active_contributors": 6,
+        "fetched_at": "2026-11-08T22:27:58.095600+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-08T04:55:21+00:00",
+        "started_at": "2026-11-11T15:11:58.912049+00:00",
+        "prs_checked": 22,
+        "range_start": "2026-10-28T01:02:19+00:00",
+        "sample_size": 18,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 29,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T15:12:11.424100+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 814,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:01:20.993508+00:00",
+        "observed_at": "2026-11-12T01:01:11.925435+00:00",
+        "actual_window_seconds": 86390.931927,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1061953414,
+      "full_name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "github_topics": [
+        "agent-skills"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": null,
+      "github_url": "https://github.com/anthropics/skills",
+      "stars_count": 193147,
+      "forks_count": 22732,
+      "created_at": "2025-09-22T15:53:31+00:00",
+      "pushed_at": "2026-11-06T22:32:32+00:00",
+      "first_seen_at": "2026-10-16T04:11:26.721414+00:00",
+      "observed_at": "2026-11-12T01:12:02.130137+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 69,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 3,
+        "merged_prs": 2,
+        "active_contributors": 3,
+        "fetched_at": "2026-11-08T15:03:00.482579+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 10,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 6,
+            "percent": 10
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-06T22:32:28+00:00",
+        "started_at": "2026-11-11T19:29:38.009409+00:00",
+        "prs_checked": 100,
+        "range_start": "2025-10-15T21:07:32+00:00",
+        "sample_size": 62,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 6,
+        "examined_commits": 62,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T19:29:47.207666+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 806,
+        "status": "ready",
+        "baseline_at": "2026-11-11T00:57:27.968284+00:00",
+        "observed_at": "2026-11-12T00:57:15.715946+00:00",
+        "actual_window_seconds": 86387.747662,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1222917575,
+      "full_name": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "github_topics": [],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/Nutlope/hallmark",
+      "stars_count": 53413,
+      "forks_count": 2842,
+      "created_at": "2026-04-27T20:47:10+00:00",
+      "pushed_at": "2026-11-11T11:56:16+00:00",
+      "first_seen_at": "2026-10-16T08:48:37.378746+00:00",
+      "observed_at": "2026-11-12T01:04:07.109561+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 85,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 73,
+        "merged_prs": 19,
+        "active_contributors": 10,
+        "fetched_at": "2026-11-08T19:27:26.252396+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 0,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-11T11:56:04+00:00",
+        "started_at": "2026-11-11T15:41:26.126429+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-10-01T23:12:03+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 0,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T15:41:36.791410+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 796,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:03:58.900783+00:00",
+        "observed_at": "2026-11-12T01:04:07.109561+00:00",
+        "actual_window_seconds": 86408.208778,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1158722119,
+      "full_name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "github_topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "cursor",
+        "skills"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/addyosmani/agent-skills",
+      "stars_count": 115962,
+      "forks_count": 12166,
+      "created_at": "2026-02-15T20:20:26+00:00",
+      "pushed_at": "2026-11-01T19:24:49+00:00",
+      "first_seen_at": "2026-10-16T02:29:43.072418+00:00",
+      "observed_at": "2026-11-12T01:15:10.508593+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 88,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 75,
+        "merged_prs": 56,
+        "active_contributors": 12,
+        "fetched_at": "2026-11-08T15:06:06.573802+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 15,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 15,
+            "percent": 15
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-11-01T17:12:12+00:00",
+        "started_at": "2026-11-11T22:50:53.307669+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-10-02T15:30:42+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 15,
+        "examined_commits": 200,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T22:50:59.957899+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 786,
+        "status": "ready",
+        "baseline_at": "2026-11-11T01:00:32.536920+00:00",
+        "observed_at": "2026-11-12T01:00:21.551052+00:00",
+        "actual_window_seconds": 86389.014132,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    },
+    {
+      "id": 1266797999,
+      "full_name": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "github_topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "category": null,
+      "classification_status": "not_classified",
+      "license": "MIT",
+      "github_url": "https://github.com/DietrichGebert/ponytail",
+      "stars_count": 189168,
+      "forks_count": 10522,
+      "created_at": "2026-06-12T00:52:37+00:00",
+      "pushed_at": "2026-10-29T11:59:31+00:00",
+      "first_seen_at": "2026-10-16T04:11:31.018911+00:00",
+      "observed_at": "2026-11-12T01:12:04.021727+00:00",
+      "tier": "hot",
+      "fork": false,
+      "archived": false,
+      "activity": {
+        "score": 88,
+        "status": "ready",
+        "refreshing": false,
+        "period_start": "2026-10-11",
+        "period_end": "2026-11-08",
+        "commits": 53,
+        "merged_prs": 50,
+        "active_contributors": 26,
+        "fetched_at": "2026-11-08T15:25:20.620689+00:00",
+        "method": "relative_percentile"
+      },
+      "ai_index": {
+        "score": 3,
+        "tools": [
+          {
+            "tool": "claude_code",
+            "count": 3,
+            "percent": 3
+          },
+          {
+            "tool": "codex",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "other",
+            "count": 0,
+            "percent": 0
+          },
+          {
+            "tool": "multiple",
+            "count": 0,
+            "percent": 0
+          }
+        ],
+        "status": "ready",
+        "range_end": "2026-10-29T11:59:31+00:00",
+        "started_at": "2026-11-11T21:01:08.502465+00:00",
+        "prs_checked": 100,
+        "range_start": "2026-10-05T01:06:35+00:00",
+        "sample_size": 100,
+        "rule_version": "ai-attribution-v1",
+        "matched_commits": 3,
+        "examined_commits": 100,
+        "page_cap_reached": false,
+        "fetched_at": "2026-11-11T21:01:18.879416+00:00",
+        "refreshing": false
+      },
+      "growth": {
+        "value": 754,
+        "status": "ready",
+        "baseline_at": "2026-11-11T00:57:29.175542+00:00",
+        "observed_at": "2026-11-12T00:57:16.905248+00:00",
+        "actual_window_seconds": 86387.729706,
+        "calculated_at": "2026-11-12T01:10:24.951046+00:00",
+        "source": "sampled_snapshots"
+      }
+    }
+  ]
+}
